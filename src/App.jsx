@@ -1,8 +1,11 @@
-// import { useState } from 'react'
 import "./App.css";
+import Hero from "./components/HomeComponents/hero";
+import Index from "./pages";
 
-function App() {
-  return <></>;
+export default function App() {
+  return (
+    <>
+      <Index />
+    </>
+  );
 }
-
-export default App;
