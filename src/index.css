@@ -74,3 +74,13 @@ button:focus-visible {
   max-width: 1100px;
 }
 /* Home Page End */
+
+/* Header Start */
+.width {
+  position: absolute;
+  max-width: 1600px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Header End */

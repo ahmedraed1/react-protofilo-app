@@ -1,10 +1,9 @@
-import Header from "../header";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
     <>
       <div class="bg-white">
-        <Header />
         <div class="relative isolate px-6 pt-14 lg:px-8">
           <div
             class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -37,18 +36,18 @@ export default function Hero() {
                 building modern, responsive web applications.
               </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
+                <Link
+                  to="/projects"
                   class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   View Projects
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="/contact"
                   class="rounded-md border-2 text-black px-3.5 py-2.5 text-sm font-semibold shadow-sm"
                 >
                   Contact Me <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

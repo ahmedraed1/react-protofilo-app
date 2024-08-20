@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
@@ -105,12 +106,12 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
+              <Link
+                to="/contact"
                 class="text-gray-300 hover:text-white text-base"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
