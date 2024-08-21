@@ -1,12 +1,12 @@
 export default function Cta() {
   return (
     <>
-      <div class="text-black bg-white font-[sans-serif] py-20">
-        <div class="max-w-lg mx-auto p-4 text-center">
+      <div class="text-black bg-white font-[sans-serif] pt-20 pb-24 text-new-font">
+        <div class="flex flex-col gap-y-4 max-w-lg mx-auto p-4 text-center">
           <h2 class="text-gray-800 text-4xl font-bold mb-6">Get in Touch</h2>
           <p class="text-gray-800 text-base">
             Feel free to reach out if you have any questions or would like to
-            discuss a project.
+            discuss any of projects.
           </p>
           <div class="my-2 flex items-center bg-gray-100 rounded overflow-hidden sm:w-11/12 mx-auto">
             <input

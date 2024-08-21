@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <>
-      <div class="bg-white font-[sans-serif] py-24 px-6 sm:px-10">
+      <div class="bg-white font-[sans-serif] py-28 px-6 sm:px-10 text-new-font">
         <div class="max-w-7xl mx-auto">
           <div class="flex flex-col text-start">
             <h2 class="text-3xl font-extrabold text-[#333] inline-block relative mb-2">
@@ -72,7 +72,7 @@ export default function Projects() {
                 {/* <span class="text-sm block text-gray-400 mb-2">
                   10 FEB 2023
                 </span> */}
-                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 1</h3>
+                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 2</h3>
                 <p class="text-gray-700 text-sm font-bold">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   accumsan, nunc et tempus blandit, metus mi consectetur felis
@@ -98,7 +98,111 @@ export default function Projects() {
                 {/* <span class="text-sm block text-gray-400 mb-2">
                   10 FEB 2023
                 </span> */}
-                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 1</h3>
+                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 3</h3>
+                <p class="text-gray-700 text-sm font-bold">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan, nunc et tempus blandit, metus mi consectetur felis
+                  turpis vitae ligula.
+                </p>
+              </div>
+              <div className="pt-2 flex flex-row gap-1 items-center">
+                <button className="w-fit h-fit px-8 py-1 rounded">
+                  Live Site
+                </button>
+                <button className="w-fit h-fit px-6 py-1 rounded bg-white text-black border-2 border-black hover:bg-black hover:text-white">
+                  GitHub
+                </button>
+              </div>
+            </div>
+            <div class="bg-white h-fit p-4 cursor-pointer rounded overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative top-0 hover:-top-2 transition-all duration-300">
+              <img
+                src="https://readymadeui.com/Imagination.webp"
+                alt="Blog Post 1"
+                class="w-full h-60 object-cover"
+              />
+              <div class="pt-4">
+                {/* <span class="text-sm block text-gray-400 mb-2">
+                  10 FEB 2023
+                </span> */}
+                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 4</h3>
+                <p class="text-gray-700 text-sm font-bold">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan, nunc et tempus blandit, metus mi consectetur felis
+                  turpis vitae ligula.
+                </p>
+              </div>
+              <div className="pt-2 flex flex-row gap-1 items-center">
+                <button className="w-fit h-fit px-8 py-1 rounded">
+                  Live Site
+                </button>
+                <button className="w-fit h-fit px-6 py-1 rounded bg-white text-black border-2 border-black hover:bg-black hover:text-white">
+                  GitHub
+                </button>
+              </div>
+            </div>
+            <div class="bg-white h-fit p-4 cursor-pointer rounded overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative top-0 hover:-top-2 transition-all duration-300">
+              <img
+                src="https://readymadeui.com/Imagination.webp"
+                alt="Blog Post 1"
+                class="w-full h-60 object-cover"
+              />
+              <div class="pt-4">
+                {/* <span class="text-sm block text-gray-400 mb-2">
+                  10 FEB 2023
+                </span> */}
+                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 5</h3>
+                <p class="text-gray-700 text-sm font-bold">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan, nunc et tempus blandit, metus mi consectetur felis
+                  turpis vitae ligula.
+                </p>
+              </div>
+              <div className="pt-2 flex flex-row gap-1 items-center">
+                <button className="w-fit h-fit px-8 py-1 rounded">
+                  Live Site
+                </button>
+                <button className="w-fit h-fit px-6 py-1 rounded bg-white text-black border-2 border-black hover:bg-black hover:text-white">
+                  GitHub
+                </button>
+              </div>
+            </div>
+            <div class="bg-white h-fit p-4 cursor-pointer rounded overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative top-0 hover:-top-2 transition-all duration-300">
+              <img
+                src="https://readymadeui.com/Imagination.webp"
+                alt="Blog Post 1"
+                class="w-full h-60 object-cover"
+              />
+              <div class="pt-4">
+                {/* <span class="text-sm block text-gray-400 mb-2">
+                  10 FEB 2023
+                </span> */}
+                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 6</h3>
+                <p class="text-gray-700 text-sm font-bold">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan, nunc et tempus blandit, metus mi consectetur felis
+                  turpis vitae ligula.
+                </p>
+              </div>
+              <div className="pt-2 flex flex-row gap-1 items-center">
+                <button className="w-fit h-fit px-8 py-1 rounded">
+                  Live Site
+                </button>
+                <button className="w-fit h-fit px-6 py-1 rounded bg-white text-black border-2 border-black hover:bg-black hover:text-white">
+                  GitHub
+                </button>
+              </div>
+            </div>
+            <div class="bg-white h-fit p-4 cursor-pointer rounded overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative top-0 hover:-top-2 transition-all duration-300">
+              <img
+                src="https://readymadeui.com/Imagination.webp"
+                alt="Blog Post 1"
+                class="w-full h-60 object-cover"
+              />
+              <div class="pt-4">
+                {/* <span class="text-sm block text-gray-400 mb-2">
+                  10 FEB 2023
+                </span> */}
+                <h3 class="text-3xl font-bold text-[#333] mb-1">Project 7</h3>
                 <p class="text-gray-700 text-sm font-bold">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                   accumsan, nunc et tempus blandit, metus mi consectetur felis

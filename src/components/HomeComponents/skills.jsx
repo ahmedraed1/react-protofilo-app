@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <>
-      <section class="text-black bg-white">
+      <section class="text-black bg-white text-new-font py-10">
         <div class="max-w-6xl mx-auto px-5 py-24 ">
           <div class="text-center mb-10">
             <h1 class=" title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">

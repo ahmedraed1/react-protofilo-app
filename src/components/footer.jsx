@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <footer class="bg-gray-800 py-4 px-8 font-sans tracking-wide">
+      <footer class="bg-gray-800 py-4 px-8 font-sans tracking-wide text-new-font">
         <div class="flex max-lg:flex-col items-center justify-between gap-6">
           <p class="text-base text-gray-300  max-lg:order-1">
-            © ReadymadeUI. All rights reserved.
+            © <a href="https://github.com/AhmedRaed1">AhmedRaed</a>. All rights
+            reserved.
           </p>
           <ul class="flex flex-wrap justify-center gap-x-6 gap-4">
             <li>
@@ -89,7 +90,7 @@ export default function Footer() {
             </li>
           </ul>
           <ul class="flex gap-x-6 gap-y-2 flex-wrap">
-            <li>
+            {/* <li>
               <a
                 href="javascript:void(0)"
                 class="text-gray-300 hover:text-white text-base"
@@ -104,7 +105,7 @@ export default function Footer() {
               >
                 Privacy Policy
               </a>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/contact"

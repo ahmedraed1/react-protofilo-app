@@ -1,10 +1,10 @@
 export default function Features() {
   return (
     <>
-      <div class="bg-white mx-auto font-[sans-serif] pt-24">
+      <div class="bg-white mx-auto font-[sans-serif] pt-24 pb-10 text-new-font ">
         <div class="text-center max-w-2xl mx-auto">
           <h2 class="text-gray-800 text-3xl font-extrabold text-center mb-6">
-            Our Exclusive Features
+            My Features
           </h2>
           <p class="text-gray-600 text-sm">
             Unlock a world of possibilities with our exclusive features. Explore
@@ -23,13 +23,14 @@ export default function Features() {
             </div>
             <div>
               <h3 class="text-gray-800 text-xl font-bold mb-4">
-                Customization
+                Web Development
               </h3>
               <p class="text-gray-600 text-sm">
-                Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
-                consequat id. Dolore et sint mollit in nisi tempor culpa
-                consectetur. Qui elit labore in nisi dolore tempor anim laboris
-                ipsum ad ad consequat id.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur delectus magnam dolores, quasi, perferendis vero
+                pariatur atque vitae laboriosam quod sequi, exercitationem
+                voluptatibus eos cum reprehenderit earum voluptatum laborum
+                doloribus!
               </p>
               <div className="py-10 flex flex-row flex-wrap items-center gap-x-1 gap-y-1">
                 <button
@@ -47,12 +48,12 @@ export default function Features() {
               </div>
             </div>
             <div class="max-md:order-1">
-              <h3 class="text-gray-800 text-xl font-bold mb-4">Performance</h3>
+              <h3 class="text-gray-800 text-xl font-bold mb-4">Designing</h3>
               <p class="text-gray-600 text-sm">
-                Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
-                consequat id. Dolore et sint mollit in nisi tempor culpa
-                consectetur. Qui elit labore in nisi dolore tempor anim laboris
-                ipsum ad ad consequat id.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi recusandae voluptatem suscipit incidunt hic aliquid
+                alias et, praesentium rem dicta error porro quo placeat
+                perspiciatis optio atque inventore quam iure.
               </p>
               <div className="py-10 flex flex-row flex-wrap items-center gap-x-1 gap-y-1">
                 <button

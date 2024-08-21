@@ -1,3 +1,7 @@
+/* Adding Google Text Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/* ------------ */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -84,3 +88,21 @@ button:focus-visible {
   transform: translateX(-50%);
 }
 /* Header End */
+
+/* Text Font Start */
+.text-new-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Text Font End */
+
+/* centering image Start */
+.cen {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* centering image End */
