@@ -93,7 +93,7 @@ button:focus-visible {
 .text-new-font {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: bold;
   font-style: normal;
 }
 

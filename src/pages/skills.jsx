@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <>
-      <section className="bg-white w-full h-screen flex justify-center py-20 md:py-24 lg:py-32 text-black text-new-font">
+      <section className="bg-white w-full h-fit flex justify-center py-20 md:py-24 lg:py-32 text-black text-new-font">
         <div className="container grid max-w-5xl gap-8 px-4 md:px-6 lg:grid-cols-2 xl:gap-12">
           <div className="space-y-4 md:space-y-6">
             <div className="space-y-3">
@@ -13,7 +13,7 @@ export default function Skills() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:grid-cols-3">
             <div className="flex flex-col items-center gap-3">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary">
                 <CodeIcon className="h-8 w-8 text-primary-foreground" />
